@@ -1,6 +1,6 @@
 {
 	"roomsPerTeam": ["core values", "robot design", "research project"],
-	"matchesPerTeam": ["practice", "ranking 1", "ranking 2", "ranking 3"],
+	"matchesPerTeam": { "practice": 1, "ranking": 3 },
 	"teams": [
 		{ "number": 1, "name": "The first team" },
 		{ "number": 2, "name": "Two is always together" },

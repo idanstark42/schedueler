@@ -32,10 +32,12 @@
 	"teamBreaksMinimumLength": 10,
 	"roomsSchedueleSections": [{ "start": 0, "end": 90 }, { "start": 120, "end": 210 }],
 	"matchesSchedueleSections": {
-		"practice #1": { "start": 10, "end": 60 },
-		"ranking #1": { "start": 70, "end": 120 },
-		"ranking #2": { "start": 120, "end": 170 },
-		"ranking #3": { "start": 200, "end": 250 }
+		"practice": [{ "start": 10, "end": 60 }],
+		"ranking": [
+			{ "start": 70, "end": 120 },
+			{ "start": 120, "end": 170 },
+			{ "start": 200, "end": 250 }
+		]
 	},
 	"startTime": "09:30:00 AM"
 }

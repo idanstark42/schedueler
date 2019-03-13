@@ -1,5 +1,6 @@
 {
-	"matchesPerTeam": { "practice": 1, "ranking": 3 },
+	"startTime": "09:30:00 AM",
+
 	"teams": [
 		{ "number": 1, "name": "The first team" },
 		{ "number": 2, "name": "Two is always together" },
@@ -20,18 +21,21 @@
 		{ "number": 9876, "name": "Downwards" },
 		{ "number": 9999, "name": "The Final" }
 	],
+	"teamBreaksMinimumLength": 10,
+
 	"rooms": {
 		"core values": 3,
 		"robot design": 3,
 		"research project": 3
 	},
-	"tables": ["Table 1", "Table 2", "Table 3", "Table 4"],
-	"timePerMatch": 15,
-	"matchCycle": 10,
-	"timePerRoom": 10,
+	"roomSpan": 10,
 	"roomCycle": 15,
-	"teamBreaksMinimumLength": 10,
 	"roomsSchedueleSections": [{ "start": 0, "end": 90 }, { "start": 120, "end": 210 }],
+
+	"tables": ["Table 1", "Table 2", "Table 3", "Table 4"],
+	"matchesPerTeam": { "practice": 1, "ranking": 3 },
+	"matchSpan": 3,
+	"matchCycle": 10,
 	"matchesSchedueleSections": {
 		"practice": [{ "start": 10, "end": 60 }],
 		"ranking": [
@@ -39,6 +43,5 @@
 			{ "start": 120, "end": 170 },
 			{ "start": 200, "end": 250 }
 		]
-	},
-	"startTime": "09:30:00 AM"
+	}
 }

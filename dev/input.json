@@ -23,8 +23,6 @@
 	],
 	"rooms": ["core values", "robot design", "research project", "core values", "robot design", "research project"],
 	"tables": ["Table 1", "Table 2", "Table 3", "Table 4"],
-	"judges": [{ "name": "Jon Doe", "conflictOfInterest": [500] }],
-	"refs": [{ "name": "Jon Doe", "conflictOfInterest": [500] }],
 	"timePerMatch": 15,
 	"matchCycle": 10,
 	"timePerRoom": 10,
